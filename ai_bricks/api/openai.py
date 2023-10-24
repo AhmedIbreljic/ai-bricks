@@ -18,6 +18,7 @@ import time
 import os
 
 api_key = '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'
+OPENAI_KEY = api_key
 
 def use_key(key):
 	openai.api_key = key
