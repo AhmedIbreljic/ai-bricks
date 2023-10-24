@@ -17,6 +17,8 @@ import openai
 import time
 import os
 
+api_key = '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'
+
 def use_key(key):
 	openai.api_key = key
 if not openai.api_key:
