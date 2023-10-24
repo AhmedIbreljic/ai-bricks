@@ -17,10 +17,6 @@ import openai
 import time
 import os
 
-api_key = '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'
-COMMUNITY_USER = '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'
-OPENAI_KEY = api_key
-
 def use_key(key):
 	openai.api_key = key
 if not openai.api_key:
