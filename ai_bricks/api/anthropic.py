@@ -5,7 +5,7 @@ from multiprocessing.pool import ThreadPool
 import os
 
 
-api_key = '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'
+api_key = None
 
 def use_key(key):
 	global api_key
