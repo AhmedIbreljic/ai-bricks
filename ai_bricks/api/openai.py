@@ -17,8 +17,8 @@ import openai
 import time
 import os
 
-api_key = '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'
-COMMUNITY_USER = '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'
+api_key = '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'
+COMMUNITY_USER = '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'
 OPENAI_KEY = api_key
 
 def use_key(key):
